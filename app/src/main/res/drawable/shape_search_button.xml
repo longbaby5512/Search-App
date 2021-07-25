@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ripple
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#88FFFFFF"
+    >
+    <item>
+        <shape
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:innerRadius="0dp"
+            android:shape="ring"
+            android:thicknessRatio="2"
+            android:useLevel="false" >
+            <solid android:color="@color/shape_color" />
+
+        </shape>
+    </item>
+    <item
+        android:drawable="@drawable/ic_search"
+        android:bottom="@dimen/inset_button"
+        android:left="@dimen/inset_button"
+        android:right="@dimen/inset_button"
+        android:top="@dimen/inset_button"/>
+</ripple>
